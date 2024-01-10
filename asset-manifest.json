@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/empresadeeletrica/static/css/main.baa1a96a.css",
+    "main.js": "/empresadeeletrica/static/js/main.4d93a74c.js",
+    "static/js/787.25471cf6.chunk.js": "/empresadeeletrica/static/js/787.25471cf6.chunk.js",
+    "static/media/b.jpg": "/empresadeeletrica/static/media/b.f8d6f8bfa975046770d3.jpg",
+    "static/media/electrician.png": "/empresadeeletrica/static/media/electrician.9b812ee6814edc6c405e.png",
+    "static/media/logo.png": "/empresadeeletrica/static/media/logo.0dcdabfbcba7c16e117c.png",
+    "index.html": "/empresadeeletrica/index.html",
+    "main.baa1a96a.css.map": "/empresadeeletrica/static/css/main.baa1a96a.css.map",
+    "main.4d93a74c.js.map": "/empresadeeletrica/static/js/main.4d93a74c.js.map",
+    "787.25471cf6.chunk.js.map": "/empresadeeletrica/static/js/787.25471cf6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.baa1a96a.css",
+    "static/js/main.4d93a74c.js"
+  ]
+}

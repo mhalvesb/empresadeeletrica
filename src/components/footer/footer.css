@@ -1,0 +1,22 @@
+footer{
+    height: 12vh;
+    background-color: #111010;
+    padding: 0px 12.5%;
+}
+
+
+
+
+.nav li{
+    margin: 5px 0px;
+    cursor: pointer;
+    padding: 1px 6px;
+    transition: 0.4s;
+    width: auto;
+}
+
+
+.nav li:hover{
+    background-color: #fff;
+    color: #000;
+}

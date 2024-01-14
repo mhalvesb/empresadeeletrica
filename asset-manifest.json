@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/empresadeeletrica/static/css/main.c94a88f2.css",
-    "main.js": "/empresadeeletrica/static/js/main.ca0794f7.js",
+    "main.js": "/empresadeeletrica/static/js/main.6650d3f7.js",
     "static/js/787.25471cf6.chunk.js": "/empresadeeletrica/static/js/787.25471cf6.chunk.js",
     "static/media/quadroeletrico.jpg": "/empresadeeletrica/static/media/quadroeletrico.f78830a2d25375cbaabe.jpg",
     "static/media/b.jpg": "/empresadeeletrica/static/media/b.f8d6f8bfa975046770d3.jpg",
@@ -12,11 +12,11 @@
     "static/media/logo.png": "/empresadeeletrica/static/media/logo.0dcdabfbcba7c16e117c.png",
     "index.html": "/empresadeeletrica/index.html",
     "main.c94a88f2.css.map": "/empresadeeletrica/static/css/main.c94a88f2.css.map",
-    "main.ca0794f7.js.map": "/empresadeeletrica/static/js/main.ca0794f7.js.map",
+    "main.6650d3f7.js.map": "/empresadeeletrica/static/js/main.6650d3f7.js.map",
     "787.25471cf6.chunk.js.map": "/empresadeeletrica/static/js/787.25471cf6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c94a88f2.css",
-    "static/js/main.ca0794f7.js"
+    "static/js/main.6650d3f7.js"
   ]
 }

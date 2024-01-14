@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.72cc83b4.css",
-    "main.js": "/static/js/main.85aef900.js",
-    "static/js/787.25471cf6.chunk.js": "/static/js/787.25471cf6.chunk.js",
-    "static/media/quadroeletrico.jpg": "/static/media/quadroeletrico.f78830a2d25375cbaabe.jpg",
-    "static/media/b.jpg": "/static/media/b.f8d6f8bfa975046770d3.jpg",
-    "static/media/constructions.jpg": "/static/media/constructions.c102ad6ff5a33ad98a65.jpg",
-    "static/media/pintura.jpg": "/static/media/pintura.2dda44b2a4db2376d30e.jpg",
-    "static/media/electrician.png": "/static/media/electrician.9b812ee6814edc6c405e.png",
-    "static/media/construction.png": "/static/media/construction.59aa5eb1e6c8e80cf346.png",
-    "static/media/logo.png": "/static/media/logo.0dcdabfbcba7c16e117c.png",
-    "index.html": "/index.html",
-    "main.72cc83b4.css.map": "/static/css/main.72cc83b4.css.map",
-    "main.85aef900.js.map": "/static/js/main.85aef900.js.map",
-    "787.25471cf6.chunk.js.map": "/static/js/787.25471cf6.chunk.js.map"
+    "main.css": "/empresadeeletricanm/static/css/main.7b9fcee7.css",
+    "main.js": "/empresadeeletricanm/static/js/main.9c45bf25.js",
+    "static/js/787.25471cf6.chunk.js": "/empresadeeletricanm/static/js/787.25471cf6.chunk.js",
+    "static/media/quadroeletrico.jpg": "/empresadeeletricanm/static/media/quadroeletrico.f78830a2d25375cbaabe.jpg",
+    "static/media/b.jpg": "/empresadeeletricanm/static/media/b.f8d6f8bfa975046770d3.jpg",
+    "static/media/constructions.jpg": "/empresadeeletricanm/static/media/constructions.c102ad6ff5a33ad98a65.jpg",
+    "static/media/pintura.jpg": "/empresadeeletricanm/static/media/pintura.2dda44b2a4db2376d30e.jpg",
+    "static/media/electrician.png": "/empresadeeletricanm/static/media/electrician.9b812ee6814edc6c405e.png",
+    "static/media/construction.png": "/empresadeeletricanm/static/media/construction.59aa5eb1e6c8e80cf346.png",
+    "static/media/logo.png": "/empresadeeletricanm/static/media/logo.0dcdabfbcba7c16e117c.png",
+    "index.html": "/empresadeeletricanm/index.html",
+    "main.7b9fcee7.css.map": "/empresadeeletricanm/static/css/main.7b9fcee7.css.map",
+    "main.9c45bf25.js.map": "/empresadeeletricanm/static/js/main.9c45bf25.js.map",
+    "787.25471cf6.chunk.js.map": "/empresadeeletricanm/static/js/787.25471cf6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.72cc83b4.css",
-    "static/js/main.85aef900.js"
+    "static/css/main.7b9fcee7.css",
+    "static/js/main.9c45bf25.js"
   ]
 }

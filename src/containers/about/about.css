@@ -1,0 +1,10 @@
+.central{
+    padding: 0px 12.5%;
+}
+
+
+.imgs img{
+    width: 128px;
+    height: 128px;
+    max-width: none;
+}

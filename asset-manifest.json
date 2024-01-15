@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/empresadeeletrica/about/static/css/main.b39e8746.css",
-    "main.js": "/empresadeeletrica/about/static/js/main.03015b95.js",
-    "static/js/787.25471cf6.chunk.js": "/empresadeeletrica/about/static/js/787.25471cf6.chunk.js",
-    "static/media/quadroeletrico.jpg": "/empresadeeletrica/about/static/media/quadroeletrico.f78830a2d25375cbaabe.jpg",
-    "static/media/b.jpg": "/empresadeeletrica/about/static/media/b.f8d6f8bfa975046770d3.jpg",
-    "static/media/constructions.jpg": "/empresadeeletrica/about/static/media/constructions.c102ad6ff5a33ad98a65.jpg",
-    "static/media/pintura.jpg": "/empresadeeletrica/about/static/media/pintura.2dda44b2a4db2376d30e.jpg",
-    "static/media/electrician.png": "/empresadeeletrica/about/static/media/electrician.9b812ee6814edc6c405e.png",
-    "static/media/construction.png": "/empresadeeletrica/about/static/media/construction.59aa5eb1e6c8e80cf346.png",
-    "static/media/logo.png": "/empresadeeletrica/about/static/media/logo.0dcdabfbcba7c16e117c.png",
-    "index.html": "/empresadeeletrica/about/index.html",
-    "main.b39e8746.css.map": "/empresadeeletrica/about/static/css/main.b39e8746.css.map",
-    "main.03015b95.js.map": "/empresadeeletrica/about/static/js/main.03015b95.js.map",
-    "787.25471cf6.chunk.js.map": "/empresadeeletrica/about/static/js/787.25471cf6.chunk.js.map"
+    "main.css": "/empresadeeletrica/static/css/main.c94a88f2.css",
+    "main.js": "/empresadeeletrica/static/js/main.743bdc06.js",
+    "static/js/787.25471cf6.chunk.js": "/empresadeeletrica/static/js/787.25471cf6.chunk.js",
+    "static/media/quadroeletrico.jpg": "/empresadeeletrica/static/media/quadroeletrico.f78830a2d25375cbaabe.jpg",
+    "static/media/b.jpg": "/empresadeeletrica/static/media/b.f8d6f8bfa975046770d3.jpg",
+    "static/media/constructions.jpg": "/empresadeeletrica/static/media/constructions.c102ad6ff5a33ad98a65.jpg",
+    "static/media/pintura.jpg": "/empresadeeletrica/static/media/pintura.2dda44b2a4db2376d30e.jpg",
+    "static/media/electrician.png": "/empresadeeletrica/static/media/electrician.9b812ee6814edc6c405e.png",
+    "static/media/construction.png": "/empresadeeletrica/static/media/construction.59aa5eb1e6c8e80cf346.png",
+    "static/media/logo.png": "/empresadeeletrica/static/media/logo.0dcdabfbcba7c16e117c.png",
+    "index.html": "/empresadeeletrica/index.html",
+    "main.c94a88f2.css.map": "/empresadeeletrica/static/css/main.c94a88f2.css.map",
+    "main.743bdc06.js.map": "/empresadeeletrica/static/js/main.743bdc06.js.map",
+    "787.25471cf6.chunk.js.map": "/empresadeeletrica/static/js/787.25471cf6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b39e8746.css",
-    "static/js/main.03015b95.js"
+    "static/css/main.c94a88f2.css",
+    "static/js/main.743bdc06.js"
   ]
 }

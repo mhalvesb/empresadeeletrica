@@ -1,7 +1,16 @@
 footer{
     height: auto;
     background-color: #111010;
-    padding: 0px
+    padding: 0px;
+    margin-top: 3.5rem;
+}
+
+footer h1{
+    font-size: 1rem;
+}
+
+.navcontainer{
+    width: 25%;
 }
 
 
@@ -19,4 +28,24 @@ footer{
 .nav li:hover{
     background-color: #fff;
     color: #000;
+}
+
+
+
+@media(max-width: 900px){
+    footer h1{
+        font-size: 14px;
+    }
+
+    .navfooter{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navcontainer{
+        width: 100%;
+        margin: 10px 0px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid white;
+    }
 }

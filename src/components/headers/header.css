@@ -2,7 +2,7 @@ header{
     background-color: #111010;
     display: flex;
     justify-content: space-between;
-    height: 10vh;
+    height: auto;
     padding: 0px 12.5%;
 }
 
@@ -37,13 +37,79 @@ header li:hover{
 }
 
 .logo{
-    height: 90%;
+    height: 100px;
     margin-right: 2rem;
 }
 
 .title{
-    height: 40%;
+    height: 30px;
 }
 
+.mobileheader, .ulmobile{
+    display: none;
+}
+
+
+@media (max-width: 990px){
+    .desktopheader{
+        display: none;
+    }
+    .mobileheader{
+        position: relative;
+        margin-left: auto;
+        margin-top: 20px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .mobiletrace{
+        width: 22px;
+        margin: 2px 0px;
+        height: 3px;
+        background-color: #fff;
+    }
+
+    .mobileheader:hover{
+        background-color: #fff;
+    }
+
+    .mobileheader:hover > .mobiletrace{
+        background-color: #000;
+    }
+    
+    
+    
+    .ulmobile{
+        display: flex;
+        position: absolute;
+        text-align: center;
+        left: calc(100% - 200px);
+        width: 200px;
+        margin-left:auto;
+        background-color: rgba(0, 0, 0, 0.75);
+        margin-top: 79px;
+        flex-direction: column;
+        list-style-type:none;
+    }
+
+    header{
+        padding: 0px 10%;
+    }
+    .footer{
+        padding: 0px 10%;
+    }
+
+    .logo{
+        height: 80px;
+        margin-left: 1rem;
+    }
+
+    .title{
+        height: 20px;
+    }
+}
 
 

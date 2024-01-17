@@ -8,7 +8,7 @@ import construction from "../../assets/icons/construction.png";
 import paintroller from "../../assets/icons/paintroller.png";
 import quadroeletrico from "../../assets/images/quadroeletrico.jpg";
 import engenheiro from "../../assets/images/constructions.jpg";
-import pintura from "../../assets/images/pintura.jpg";
+import pintura from "../../assets/images/pintorkenosis.png";
 
 import "./about.css"
 

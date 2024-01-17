@@ -22,17 +22,19 @@ function Header(){
             </div>
             
         
-            <div className="mobileheader" onClick={ToggleList}>
-                <div className="mobiletrace"></div>
-                <div className="mobiletrace"></div>
-                <div className="mobiletrace"></div>
+            <div className={ `${listaVisivel ? 'activemobileheader' : ""} mobileheader`} onClick={ToggleList}>
+                <div className={`${listaVisivel ? 'activemobiletracer' : ""} mobiletrace`}></div>
+                <div className={`${listaVisivel ? "activemobiletracer" : ""} mobiletrace`}></div>
+                <div className={`${listaVisivel ? "activemobiletracer" : ""} mobiletrace`}></div>
             </div>
+
             <ul className="ulmobile" style={{display: listaVisivel ? 'block' : 'none'}}>
                     <Link to="/"><li>Inicio</li></Link>
                     <Link to="/about"><li>Sobre a empresa</li></Link>
                     <li>Serviços</li>
                     <li>Contato</li>
             </ul>
+
             <ul className="desktopheader">
                 <Link to="/"><li>Inicio</li></Link>
                 <Link to="/about"><li>Sobre a empresa</li></Link>

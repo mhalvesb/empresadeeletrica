@@ -50,14 +50,19 @@ header li:hover{
 }
 
 
+
+
+
 @media (max-width: 990px){
     .desktopheader{
         display: none;
     }
     .mobileheader{
+        height: 50%;
+        margin-top: auto;
+        margin-bottom: auto;
         position: relative;
         margin-left: auto;
-        margin-top: 20px;
         padding: 10px;
         display: flex;
         align-items: center;
@@ -71,15 +76,14 @@ header li:hover{
         height: 3px;
         background-color: #fff;
     }
-
-    .mobileheader:hover{
+    
+    .activemobileheader{
         background-color: #fff;
     }
-
-    .mobileheader:hover > .mobiletrace{
+    
+    .activemobiletracer{
         background-color: #000;
     }
-    
     
     
     .ulmobile{
@@ -112,4 +116,10 @@ header li:hover{
     }
 }
 
+
+@media (max-width: 400px){
+    header{
+        padding: 0px 1%;
+    }
+}
 

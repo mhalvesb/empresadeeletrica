@@ -35,9 +35,9 @@ function About(){
                 oferecendo uma variedade de serviços que incluem pintura interna e externa, texturização de paredes e aplicação de revestimentos especiais. Elas visam não apenas aprimorar a estética, mas também proteger as superfícies contra desgaste e danos, utilizando materiais de alta qualidade.
                 </p>
 
-                <div className="flex items-center justify-between">
-                    <div className="flex bg-slate-100 w-[49%] h-96 items-center pr-10 pt-10 pb-10 rounded-md">
-                        <div className="imgs mr-10">
+                <div className="flex items-centerr">
+                    <div className="flex bg-slate-100 w-[100%] items-center pr-10 pt-10 pb-10 rounded-md mark1 h-96 flex-col justify-center">
+                        <div className="imgs imgs1">
                             <img src={electricpanel} alt="eletrica"></img>
                     </div>
                         
@@ -47,37 +47,32 @@ function About(){
                             organizando e protegendo os circuitos elétricos.</p>
                     </div>
 
-                    <div className="w-[49%] flex items-center justify-center h-96">
-                        <img src={quadroeletrico} alt="" className="w-[100%] h-[100%] rounded-md"></img>
-                    </div>
 
                 </div>
 
                 
 
-            <div className="flex items-center justify-between">
-                    <div className="w-[49%] flex items-center mt-6 h-96">
-                            <img src={pintura} alt="" className="w-[100%] h-[100%] rounded-md"></img>
-                    </div>
+            <div className="flex items-center">
+            
 
-                <div className="flex mt-6 bg-slate-100 w-[49%] items-center pr-1 pl-10 pt-10 pb-10 rounded-md h-96">
+                <div className="flex mt-6 bg-slate-100 w-[100%] items-center pr-1 pl-10 pt-10 pb-10 rounded-md flex-1 mark2 h-96 flex-col justify-center">
                     
 
                     <p className="text-black text-xl font-bold">Em pinturas desempenhamos um papel vital na transformação estética de espaços, 
                     sejam eles residenciais, comerciais ou industriais. Seu foco principal está na aplicação de técnicas
                      e materiais de pintura para proporcionar um ambiente visualmente atraente e proteger as superfícies contra desgaste e danos.
                     </p>
-                        <div className="imgs ml-10">
+                        <div className="imgs imgs2">
                             <img src={paintroller} alt="eletrica"></img>
                         </div>
                     </div>
             </div>
                 
 
-            <div className="flex items-center justify-between">
-                <div className="flex mt-6 bg-slate-100 w-[49%] items-center pr-10 pt-10 pb-10 rounded-md h-96">
+            <div className="flex items-center">
+                <div className="flex mt-6 bg-slate-100 w-[100%] items-center pr-10 pt-10 pb-10 rounded-md h-96 mark3 flex-col justify-center">
 
-                <div className="imgs mr-10 pl-1">
+                <div className="pl-1 imgs imgs3">
                             <img src={construction} alt="eletrica"></img>
                         </div>
 
@@ -86,10 +81,6 @@ function About(){
                     de deixar uma marca positiva em comunidades e no meio ambiente.
                     </p>
                         
-                    </div>
-
-                    <div className="w-[49%] flex items-center mt-6 h-96">
-                            <img src={engenheiro} alt="" className="w-[100%] h-[100%] rounded-md"></img>
                     </div>
                 </div>
                    

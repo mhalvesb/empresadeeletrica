@@ -1,6 +1,5 @@
 *{
     color: #fff;
-    overflow-x:hidden;
 }
 
 body{
@@ -105,6 +104,13 @@ section:nth-child(2){
     footer{
         margin-top: 0rem;
         
+    }
+
+    .bg h1{
+        font-size: 30px;
+    }
+    .bg h2{
+        font-size: 20px;
     }
 
 }

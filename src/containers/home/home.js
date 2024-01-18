@@ -21,7 +21,7 @@ function Home(){
                         <button className="mt-2">Entrar em contato</button>
                     </div>
                     <div className="sec b3sec">
-                        <section className="rounded-tl-lg flex-1 ">
+                        <section className="rounded-tl-lg flex-1 mb-14">
                             <div className="sectionimg rounded-full bg-black mr-4 p-2">
                                 <img src={Sectionimg} alt="housepng"></img>
                             </div>
@@ -33,8 +33,8 @@ function Home(){
                             </div>
                         </section>
 
-                        <section className="flex-1">
-                            <div className="sectionimg p-2 bg-white rounded-full mr-4">
+                        <section className="flex-1 mb-14">
+                            <div className="sectionimg p-2 bg-white rounded-full mr-4 ">
                                 <img className="" src={Sectionimgs} alt="png"></img>
                             </div>
                             <div>
@@ -46,7 +46,7 @@ function Home(){
 
                         </section>
 
-                        <section className="rounded-tr-lg flex-1">
+                        <section className="rounded-tr-lg flex-1 mb-14">
                         <div className="sectionimg p-2 bg-black rounded-full mr-4">
                                 <img className="" src={Sectionclient} alt="png"></img>
                             </div>

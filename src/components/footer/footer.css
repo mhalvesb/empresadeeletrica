@@ -2,7 +2,8 @@ footer{
     height: auto;
     background-color: #111010;
     padding: 0px;
-    margin-top: 3.5rem;
+    z-index: 1000;
+    width: 100%;
 }
 
 footer h1{

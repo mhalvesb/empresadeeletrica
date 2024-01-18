@@ -32,14 +32,15 @@ function Header(){
                     <Link to="/"><li>Inicio</li></Link>
                     <Link to="/about"><li>Sobre a empresa</li></Link>
                     <li>Serviços</li>
-                    <li>Contato</li>
+                    <Link to="/contact"><li>Contato</li></Link>
+                    
             </ul>
 
             <ul className="desktopheader">
                 <Link to="/"><li>Inicio</li></Link>
                 <Link to="/about"><li>Sobre a empresa</li></Link>
                 <li>Serviços</li>
-                <li>Contato</li>
+                <Link to="/contact"><li>Contato</li></Link>
             </ul>
         </header>
     )

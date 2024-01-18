@@ -8,6 +8,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 
 function Footer(){
+    
     return(
         <footer className="">
             <div className="navfooter footer flex justify-between items-center px-[12.5%] py-4">

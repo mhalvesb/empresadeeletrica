@@ -1,0 +1,56 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contactmain{
+    padding: 0px 12.5%;
+    display: flex;
+    justify-content: space-between;
+    margin: 15vh 0px;
+}
+
+
+.inputbox{
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.textsbox{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content{
+    min-height: 100vh;
+}
+
+input{
+    height: 40px;
+    background-color: #232023;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+#firstname{
+    margin-right: 0px;
+    width: 100%;
+}
+
+
+#types{
+    background-color: #232023;
+    resize: none;
+    height: 80px;
+    margin-bottom: 5px;
+    padding-bottom: 40px;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 10px;
+}

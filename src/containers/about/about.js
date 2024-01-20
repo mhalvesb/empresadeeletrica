@@ -35,7 +35,7 @@ function About(){
                 oferecendo uma variedade de serviços que incluem pintura interna e externa, texturização de paredes e aplicação de revestimentos especiais. Elas visam não apenas aprimorar a estética, mas também proteger as superfícies contra desgaste e danos, utilizando materiais de alta qualidade.
                 </p>
 
-                <div className="flex items-centerr">
+                <div className="flex items-center">
                     <div className="flex bg-slate-100 w-[100%] items-center pr-10 pt-10 pb-10 rounded-md mark1 h-96 flex-col justify-center">
                         <div className="imgs imgs1">
                             <img src={electricpanel} alt="eletrica"></img>

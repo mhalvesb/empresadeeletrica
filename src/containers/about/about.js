@@ -36,7 +36,7 @@ function About(){
                 </p>
 
                 <div className="flex items-center">
-                    <div className="flex bg-slate-100 w-[100%] items-center pr-10 pt-10 pb-10 rounded-md mark1 h-96 flex-col justify-center">
+                    <div className="flex bg-slate-100 w-[100%] items-center pl-10 pr-10 pt-10 pb-10 rounded-md mark1 h-96 flex-col justify-center">
                         <div className="imgs imgs1">
                             <img src={electricpanel} alt="eletrica"></img>
                     </div>
@@ -55,7 +55,7 @@ function About(){
             <div className="flex items-center">
             
 
-                <div className="flex mt-6 bg-slate-100 w-[100%] items-center pr-1 pl-10 pt-10 pb-10 rounded-md flex-1 mark2 h-96 flex-col justify-center">
+                <div className="flex mt-6 bg-slate-100 w-[100%] items-center pr-10 pl-10 pt-10 pb-10 rounded-md flex-1 mark2 h-96 flex-col justify-center">
                     
 
                     <p className="text-black text-xl font-bold">Em pinturas desempenhamos um papel vital na transformação estética de espaços, 
@@ -70,7 +70,7 @@ function About(){
                 
 
             <div className="flex items-center">
-                <div className="flex mt-6 bg-slate-100 w-[100%] items-center pr-10 pt-10 pb-10 rounded-md h-96 mark3 flex-col justify-center">
+                <div className="flex mt-6 bg-slate-100 w-[100%] items-center pl-10 pr-10 pt-10 pb-10 rounded-md h-96 mark3 flex-col justify-center">
 
                 <div className="pl-1 imgs imgs3">
                             <img src={construction} alt="eletrica"></img>

@@ -31,7 +31,7 @@ function Header(){
             <ul className="ulmobile" style={{display: listaVisivel ? 'block' : 'none'}}>
                     <Link to="/"><li>Inicio</li></Link>
                     <Link to="/about"><li>Sobre a empresa</li></Link>
-                    <li>Serviços</li>
+                    <Link to="/services"><li>Serviços</li></Link>
                     <Link to="/contact"><li>Contato</li></Link>
                     
             </ul>
@@ -39,7 +39,7 @@ function Header(){
             <ul className="desktopheader">
                 <Link to="/"><li>Inicio</li></Link>
                 <Link to="/about"><li>Sobre a empresa</li></Link>
-                <li>Serviços</li>
+                <Link to="/services"><li>Serviços</li></Link>
                 <Link to="/contact"><li>Contato</li></Link>
             </ul>
         </header>

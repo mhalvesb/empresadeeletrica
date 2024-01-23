@@ -1,0 +1,115 @@
+.central{
+    padding: 0px 12.5%;
+}
+
+.central img{
+    height: auto;
+}
+
+
+.imgs img{
+    width: 128px;
+    height: 128px;
+    max-width: none;
+}
+
+
+.imgs1, .imgs3{
+    margin-bottom: 30px;
+}
+
+.imgs2{
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+@media(max-width: 990px){
+    .central{
+        padding: 0px 10%;
+    }
+
+    .central h1{
+        font-size: 30px;
+    }
+    .central h2{
+        font-size: 20px;
+    }
+
+    .central p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #fff;
+    }
+
+    .mark1, .mark3{
+        padding: 2px 0px;
+        height: 400px;
+    }
+
+    .mark2{
+        padding: 2px 0px;
+    }
+
+    .imgs img{
+        width: 96px;
+        height: 96px;
+        max-width: none;
+    }
+}
+
+@media(max-width: 700px){
+    .mark1 p, .mark2 p, .mark3 p{
+        font-size: 1rem;
+    }
+    .mark1, .mark3{
+        padding: 0px 10px 0px 0px;
+        height: 400px;
+    }
+
+    .mark2{
+        padding: 0px 0px 0px 10px;
+    }
+
+    .imgs1, .imgs3{
+        margin-bottom: 20px;
+    }
+
+    .imgs2{
+        margin-top: 20px;
+    }
+}
+
+
+@media(max-width: 500px){
+    .mark1 p, .mark2 p, .mark3 p{
+        font-size: 0.8rem;
+    }
+    .imgs img{
+        width: 64px;
+        height: 64px;
+        max-width: none;
+    }
+
+    .central h1{
+        font-size: 20px;
+        margin-top:10px;
+    }
+    .central h2{
+        font-size: 16px;
+    }
+
+    .central p {
+        font-size: 14px;
+    }
+    
+}
+
+@media(max-width: 400px){
+
+}

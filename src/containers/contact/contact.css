@@ -1,0 +1,105 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contactmain{
+    padding: 0px 12.5%;
+    display: flex;
+    justify-content: space-between;
+    margin: 15vh 0px;
+}
+
+
+.inputbox{
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.textsbox{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content{
+    min-height: 100vh;
+}
+
+input{
+    height: 40px;
+    background-color: #232023;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+#firstname{
+    margin-right: 0px;
+    width: 100%;
+}
+
+
+#types{
+    background-color: #232023;
+    resize: none;
+    height: 80px;
+    margin-bottom: 5px;
+    padding-bottom: 40px;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+
+
+@media(max-width: 1250px){
+    .contactmain{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 5vh 0px;
+        
+    }
+
+    .inputbox{
+        justify-content: flex-start;
+        aspect-ratio: 0;
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .textsbox{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media(max-width: 990px){
+    .contactmain{
+       padding: 0px 10%;
+        
+    }
+}
+
+
+@media(max-width: 400px){
+    .contactmain{
+        padding: 0px 2%;
+    }
+
+    .textsbox h1{
+        font-size: 30px;
+    }
+    .textsbox p{
+        font-size: 14px;
+    }
+
+    .inputbox{
+        margin-top: 50px;
+    }
+}

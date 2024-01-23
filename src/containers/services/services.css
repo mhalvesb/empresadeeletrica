@@ -55,6 +55,53 @@
     filter: opacity(1);
 }
 
+.imgcontent{
+    max-height: 80%;
+    height: 100%;
+    
+}
+
+.imgwidth{
+    position: fixed;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 100;
+    backdrop-filter: blur(5px);
+}
+
+.imgboxwidth{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+
+.imgboxwidth h1{
+    font-size: 25px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    aspect-ratio: 1 / 1;
+    transition: 0.5s;
+    border: 1px solid #000;
+}
+
+.imgboxwidth h1:hover{
+    background-color: #000;
+    color: #fff;
+    border-radius: 20%;
+    border: 1px solid #fff;
+}
+
 
 
 

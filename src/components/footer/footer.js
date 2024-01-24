@@ -1,5 +1,7 @@
 import React from "react";
 
+import {Link} from "react-router-dom";
+
 import "./footer.css";
 
 import { FaFacebook } from "react-icons/fa";
@@ -18,22 +20,23 @@ function Footer(){
                 </div>
                 <div className="navcontainer text-center">
                     <ul className="nav flex justify-center flex-col items-center">
-                        <li>Sobre a empresa</li>
-                        <li>Serviços</li>
-                        <li>Contato</li>
+                        <Link to="/"><li>Inicio</li></Link>
+                        <Link to="/about"><li>Sobre a empresa</li></Link>
+                        <Link to="/services"><li>Serviços</li></Link>
+                        <Link to="/contact"><li>Contato</li></Link>
                     </ul>
                 </div>
                 <div className="navcontainer w-[25%] text-center">
                     <h1 className="">Redes Sociais</h1>
                     <ul className="flex justify-center">
-                        <li className="cursor-pointer m-4"><FaFacebook size={25}/></li>
-                        <li className="cursor-pointer m-4"><FaInstagram size={25}/></li>
-                        <li className="cursor-pointer my-4 ml-4"><FaWhatsapp size={25}/></li>
+                        <Link to="http://www.facebook.com.br"><li className="cursor-pointer m-4"><FaFacebook size={25}/></li></Link>
+                        <Link to="http://www.instagram.com"><li className="cursor-pointer m-4"><FaInstagram size={25}/></li></Link>
+                        <Link to="https://contate.me/kenosis"><li className="cursor-pointer my-4 ml-4"><FaWhatsapp size={25}/></li></Link>
                     </ul>
                 </div>
                 <div className="navcontainer">
                     <ul className="text-center">
-                        <li>Tel: +(99) 9999-9999</li>
+                        <li>Tel: +(21) 98479-7579</li>
                         <li>Endereço: Rua XXXXXX, 999, Rio de janeiro</li>
                     </ul>
                 </div>

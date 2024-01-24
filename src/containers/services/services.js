@@ -25,9 +25,6 @@ function Services(){
             
                 <div className="imgwidth" style={{display: images ? "flex" : "none"}}>
                     <div className="imgboxwidth">
-
-                        <h1 onClick={() => Img(null)}>X</h1>
-
                         <h1 onClick={() => Img(null)}>Fechar</h1>
 
                         <img src={images} alt="" className="imgcontent"></img>

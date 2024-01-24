@@ -25,8 +25,8 @@ function Contact(){
                 <div className="inputbox">
                     <div className="flex justify-between mb-1">
                             <div className="flex flex-col w-[49%]">
-                                <label htmlFor="firstname" name="firstname">Nome</label>
-                                <input type="text" name="firstname" id="firstname"></input>
+                                <label htmlFor="name" name="name">Nome</label>
+                                <input type="text" name="name" id="name"></input>
                             </div>
                             <div className="flex flex-col w-[49%]">
                                 <label htmlFor="lastname" name="lastname">Sobrenome</label>
@@ -39,8 +39,8 @@ function Contact(){
                         <input type="email" name="email" id="email" required></input>
                     </div>
                     <div className="flex flex-col">
-                        <label htmlFor="types" name="types">Nos diga como podemos te ajudar?</label>
-                        <textarea id="types" name="types">
+                        <label htmlFor="message" name="message">Nos diga como podemos te ajudar?</label>
+                        <textarea id="message" name="message">
 
                         </textarea>
                     </div>

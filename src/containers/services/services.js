@@ -47,7 +47,7 @@ function Services(){
                     </div>
                     <div className="textbox">
                         <h1>Edificações</h1>
-                        <p>Rua: XXXX, Bairro: XXXX</p>
+                        <p>Rua: XXXX, Bairro: XXXXX</p>
                     </div>
 
                 </div>

@@ -25,7 +25,11 @@ function Services(){
             
                 <div className="imgwidth" style={{display: images ? "flex" : "none"}}>
                     <div className="imgboxwidth">
+
                         <h1 onClick={() => Img(null)}>X</h1>
+
+                        <h1 onClick={() => Img(null)}>Fechar</h1>
+
                         <img src={images} alt="" className="imgcontent"></img>
                     </div>
                     
@@ -47,7 +51,11 @@ function Services(){
                     </div>
                     <div className="textbox">
                         <h1>Edificações</h1>
+
                         <p>Rua: XXXX, Bairro: XXXX</p>
+
+                        <p>Rua: XXXX, Bairro: XXXXX</p>
+
                     </div>
 
                 </div>

@@ -37,6 +37,7 @@ function Footer(){
                 <div className="navcontainer">
                     <ul className="text-center">
                         <li>Tel: +(21) 98479-7579</li>
+                        <li>Email: kenosis2011hd@gmail.com</li>
                         <li>Endereço: Rua XXXXXX, 999, Rio de janeiro</li>
                     </ul>
                 </div>

@@ -18,7 +18,7 @@ function Home(){
                     <div className="bg">
                         <h2>Somos os profissionais</h2>
                         <h1>Para o seu projeto</h1>
-                        <button className="mt-2">Entrar em contato</button>
+                        
                     </div>
                     <div className="sec b3sec">
                         <section className="rounded-tl-lg flex-1 mb-14">

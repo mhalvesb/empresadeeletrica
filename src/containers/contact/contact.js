@@ -1,4 +1,6 @@
-import React, {useState} from "react";
+import React, {useState, useRef} from "react";
+import {useNavigate} from "react-router-dom";
+import emailjs from "@emailjs/browser";
 
 import Header from "../../components/headers/header.js";
 import Footer from "../../components/footer/footer.js";
@@ -8,7 +10,30 @@ import Footer from "../../components/footer/footer.js";
 import "./contact.css";
 
 function Contact(){
-    
+    const navigate = useNavigate();
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+      emailjs.sendForm('service_p67t25c', 'template_5lmsdwa', form.current, '8v-OrSlNzRtVinck_')
+        .then((result) => {
+
+            console.log(result.text);
+            
+
+        }, (error) => {
+            console.log(error.text);
+            
+        });
+        const input = document.querySelectorAll("input");
+
+            input.forEach(input =>{
+                input.value = "";
+            })
+    };
+
+
+
     return(
       
         <div className="content">
@@ -22,21 +47,21 @@ function Contact(){
 
                         Não hesite em nos contatar através dos meios fornecidos acima. Mal podemos esperar para começar esta jornada juntos.</p>
                 </div>
-                <div className="inputbox">
+                <form ref={form} onSubmit={sendEmail} className="inputbox">
                     <div className="flex justify-between mb-1">
                             <div className="flex flex-col w-[49%]">
-                                <label htmlFor="name" name="name">Nome</label>
-                                <input type="text" name="name" id="name"></input>
+                                <label htmlFor="user_name" name="user_name">Nome</label>
+                                <input type="text" name="user_name" id="name"></input>
                             </div>
                             <div className="flex flex-col w-[49%]">
-                                <label htmlFor="lastname" name="lastname">Sobrenome</label>
-                                <input type="text" name="lastname" id="lastname"></input>
+                                <label htmlFor="user_lastname" name="user_lastname">Sobrenome</label>
+                                <input type="text" name="user_lastname" id="lastname"></input>
                             </div>
                     </div>
                     
                     <div className="flex flex-col">
-                        <label htmlFor="email" name="email">Email</label>
-                        <input type="email" name="email" id="email" required></input>
+                        <label htmlFor="email" name="user_email">Email</label>
+                        <input type="email" name="user_email" id="email" required></input>
                     </div>
                     <div className="flex flex-col">
                         <label htmlFor="message" name="message">Nos diga como podemos te ajudar?</label>
@@ -45,8 +70,8 @@ function Contact(){
                         </textarea>
                     </div>
                     
-                    <button>Enviar</button>
-                </div>
+                    <button type="submit" value="Send">Enviar</button>
+                </form>
               </main>
               <Footer/>
         </div>

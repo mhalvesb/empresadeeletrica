@@ -30,7 +30,7 @@ function Footer(){
                     <h1 className="">Redes Sociais</h1>
                     <ul className="flex justify-center">
                         <Link to="http://www.facebook.com.br"><li className="cursor-pointer m-4"><FaFacebook size={25}/></li></Link>
-                        <Link to="http://www.instagram.com"><li className="cursor-pointer m-4"><FaInstagram size={25}/></li></Link>
+                        <Link to="https://www.instagram.com/kenosisengtec?igsh=MXM3Y3Vkc3Y4bmJxNw%3D%3D&utm_source=qr"><li className="cursor-pointer m-4"><FaInstagram size={25}/></li></Link>
                         <Link to="https://contate.me/kenosis"><li className="cursor-pointer my-4 ml-4"><FaWhatsapp size={25}/></li></Link>
                     </ul>
                 </div>

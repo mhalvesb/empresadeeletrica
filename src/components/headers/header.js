@@ -16,10 +16,10 @@ function Header(){
 
     return(
         <header>
-            <div className="himgs">
+            <Link to="/"><div className="himgs">
             <img src={Logo} alt="logo" className="logo"></img>
             <img src={Text} alt="logo" className="title"></img>
-            </div>
+            </div></Link>
             
         
             <div className={ `${listaVisivel ? 'activemobileheader' : ""} mobileheader`} onClick={ToggleList}>

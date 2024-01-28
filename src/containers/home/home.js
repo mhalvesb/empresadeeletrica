@@ -1,4 +1,7 @@
-import React from "react";
+import React, {useState} from "react";
+import { Link } from "react-router-dom";
+
+
 import Header from "../../components/headers/header";
 import Footer from "../../components/footer/footer";
 
@@ -7,18 +10,47 @@ import Footer from "../../components/footer/footer";
 import Sectionimg from "../../assets/icons/worker.png";
 import Sectionimgs from "../../assets/icons/electrician.png"
 import Sectionclient from "../../assets/icons/clients.png"
+
+import {FaFacebook} from "react-icons/fa";
+import {FaInstagram} from "react-icons/fa";
+import {FaWhatsapp} from "react-icons/fa";
+
 import "./home.css";
 
 
 function Home(){
+    const [isOpen, setIsOpen] = useState(false);
+    function Open(){
+        setIsOpen(true);
+    }
+
+    function Close(){
+        setIsOpen(false);
+    }
     return(
         <div>
+            <div className="contatosbox" style={{display: isOpen ? "flex" : "none"}}>
+                <div className="contatosarea">
+                    
+                    <h2>Entre em contato conosco pelas nossas redes sociais</h2>
+                        <div className="contatosredes">
+                            <li><Link to="http://www.facebook.com.br"><FaFacebook size={40}></FaFacebook></Link></li>
+                            <li><Link to="https://www.instagram.com/kenosisengtec?igsh=MXM3Y3Vkc3Y4bmJxNw%3D%3D&utm_source=qr"><FaInstagram size={40}></FaInstagram></Link></li>
+                            <li><Link to="https://contate.me/kenosis"><FaWhatsapp size={40}></FaWhatsapp></Link></li>
+                        </div>
+                    <h2>Ou nos envie um e-mail</h2>
+                    <Link to="/contact"><button className="sendemail">Enviar e-mail</button></Link>
+                    
+                </div>
+                <p className="pbutton" onClick={Close}>Fechar</p>
+                </div>
             <Header/>
             <main>
+                
                     <div className="bg">
                         <h2>Somos os profissionais</h2>
                         <h1>Para o seu projeto</h1>
-                        
+                        <button onClick={Open}>Entrar em contato</button>
                     </div>
                     <div className="sec b3sec">
                         <section className="rounded-tl-lg flex-1 mb-14">

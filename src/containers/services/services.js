@@ -51,8 +51,6 @@ function Services(){
 
                         <p>Rua: XXXX, Bairro: XXXX</p>
 
-                        <p>Rua: XXXX, Bairro: XXXXX</p>
-
                     </div>
 
                 </div>

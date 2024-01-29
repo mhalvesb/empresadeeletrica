@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 import Header from "../../components/headers/header";
 import Footer from "../../components/footer/footer";
-
+import Loading from "../../components/loading/loading";
 
 
 import Sectionimg from "../../assets/icons/worker.png";
@@ -29,6 +29,7 @@ function Home(){
     }
     return(
         <div>
+            <Loading/>
             <div className="contatosbox" style={{display: isOpen ? "flex" : "none"}}>
                 <div className="contatosarea">
                     

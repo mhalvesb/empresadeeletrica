@@ -3,6 +3,8 @@ import Header from "../../components/headers/header";
 import Footer from "../../components/footer/footer";
 
 
+import Loading from "../../components/loading/loading";
+
 import electricpanel from "../../assets/icons/electricpanel.png";
 import construction from "../../assets/icons/construction.png";
 import paintroller from "../../assets/icons/paintroller.png";
@@ -17,6 +19,7 @@ function About(){
 
     return(
         <div>
+            <Loading/>
             <Header/>
 
 

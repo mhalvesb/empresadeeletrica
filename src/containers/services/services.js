@@ -4,7 +4,7 @@ import "./services.css"
 
 import Header from "../../components/headers/header.js";
 import Footer from "../../components/footer/footer.js";
-
+import Loading from "../../components/loading/loading";
 
 import serv1 from "../../assets/images/serv1.jpg";
 import serv2 from "../../assets/images/serv2.jpg";
@@ -21,6 +21,7 @@ function Services(){
 
     return(
         <div>
+            <Loading/>
 
             
                 <div className="imgwidth" style={{display: images ? "flex" : "none"}}>

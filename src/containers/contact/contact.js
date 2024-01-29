@@ -2,6 +2,10 @@ import React, {useState, useRef} from "react";
 import {useNavigate} from "react-router-dom";
 import emailjs from "@emailjs/browser";
 
+
+
+import Loading from "../../components/loading/loading";
+
 import Header from "../../components/headers/header.js";
 import Footer from "../../components/footer/footer.js";
 
@@ -36,8 +40,10 @@ function Contact(){
 
     return(
       
-        <div className="content">
+        <div>
+            <Loading/>
               <Header/>
+            <div className="content">
               <main className="contactmain">
                 <div className="textsbox">
                     <h1>Entre em contato</h1>
@@ -73,6 +79,7 @@ function Contact(){
                     <button type="submit" value="Send">Enviar</button>
                 </form>
               </main>
+              </div>
               <Footer/>
         </div>
         

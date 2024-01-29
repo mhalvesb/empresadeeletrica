@@ -5,6 +5,7 @@ import Home from "./containers/home/home.js";
 import About from "./containers/about/about.js";
 import Contact from "./containers/contact/contact.js";
 import Services from "./containers/services/services.js";
+import Loading from "./components/loading/loading.js";
 
 function App() {
   return (

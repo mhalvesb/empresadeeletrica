@@ -10,6 +10,7 @@
 <h2>Descrição do projeto</h2>
 <ul>
   <li>Empresa de construção cívil, pinturas e elétrica em geral, desenvolvido para ter acesso, contato e informações sobre a empresa</li>
+  <li>Feito em react o projeto conta com descrições, formas de contatos entre redirecionamento da página para as redes sociais da empresa e um formulario para envio de e-mails</li>
 </ul>
 
 

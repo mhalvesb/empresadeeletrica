@@ -19,5 +19,5 @@
   <ul>
     <li></li>
     <li></li>
-    <li>REACT <i class="devicon-react-original colored"></i></li>
+    <li>REACT <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" /></li>
   </ul>

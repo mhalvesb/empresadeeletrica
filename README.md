@@ -9,7 +9,7 @@
 
 <h2>Descrição do projeto</h2>
 <ul>
-  <li></li>
+  <li>Empresa de construção cívil, pinturas e elétrica em geral, desenvolvido para ter acesso, contato e informações sobre a empresa</li>
 </ul>
 
 

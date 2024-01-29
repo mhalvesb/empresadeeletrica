@@ -8,6 +8,10 @@ import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 
+import tel from "../../assets/icons/telefone.png";
+import locali from "../../assets/icons/marcador.png";
+import emails from "../../assets/icons/envelope.png";
+
 
 function Footer(){
     
@@ -18,14 +22,6 @@ function Footer(){
                     <h1 className="">Sobre a empresa</h1>
                     <p className="text-sm"> Satisfação do cliente é nossa prioridade, e buscamos estabelecer parcerias sólidas, baseadas na transparência e na comunicação aberta.</p>
                 </div>
-                <div className="navcontainer text-center">
-                    <ul className="nav flex justify-center flex-col items-center">
-                        <Link to="/"><li>Inicio</li></Link>
-                        <Link to="/about"><li>Sobre a empresa</li></Link>
-                        <Link to="/services"><li>Serviços</li></Link>
-                        <Link to="/contact"><li>Contato</li></Link>
-                    </ul>
-                </div>
                 <div className="navcontainer w-[25%] text-center">
                     <h1 className="">Redes Sociais</h1>
                     <ul className="flex justify-center">
@@ -35,10 +31,10 @@ function Footer(){
                     </ul>
                 </div>
                 <div className="navcontainer">
-                    <ul className="text-center">
-                        <li>Tel: +(21) 98479-7579</li>
-                        <li>Email: kenosis2011hd@gmail.com</li>
-                        <li>R. Remanso, 255, Rio de janeiro</li>
+                    <ul className="text-center ulcontact">
+                        <li><img src={tel} width="10px" alt="tel"/> +(21) 98479-7579</li>
+                        <li><img src={emails} width="10px" alt="email"/> kenosis2011hd@gmail.com</li>
+                        <li><img src={locali} width="10px" alt="address"/> R. Remanso, 255, Rio de janeiro</li>
                     </ul>
                 </div>
             </div>

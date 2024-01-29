@@ -30,3 +30,7 @@
     <li>Tablets ✅</li>
     <li>Celular ✅</li>
   </ul>
+
+
+  <h2>Imagens do projeto</h2>
+  <img src="./src/assets/github/img1.jpg"/>

@@ -34,3 +34,5 @@
 
   <h2>Imagens do projeto</h2>
   <img src="./src/assets/github/img1.jpg"/>
+  <img src="./src/assets/github/img2.jpg"/>
+  <img src="./src/assets/github/img3.jpg"/>

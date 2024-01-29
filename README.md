@@ -17,7 +17,7 @@
 
   <h2>Tecnologias utilizadas</h2>
   <ul>
-    <li>HTML</li>
+    <li>HTML <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="12px"/></li>
     <li>CSS</li>
-    <li>REACT <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="15px"/></li>
+    <li>REACT <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="12px"/></li>
   </ul>

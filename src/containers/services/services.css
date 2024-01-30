@@ -139,6 +139,25 @@
 
 
 
+@media (max-width: 900px){
+    .services-box{
+        width: 150px;
+        min-width: 150px;
+    }
+    .servicestxt h1, .servicesarea h1{
+        font-size: 24px;
+    }
+}
 
 
+@media (max-width: 600px){
+    .services-box{
+        width: 80px;
+        min-width: 80px;
+    }
+    .servicestxt h1, .servicesarea h1{
+        font-size: 20px;
+    }
+
+}
 

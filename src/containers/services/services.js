@@ -9,6 +9,7 @@ import Loading from "../../components/loading/loading";
 import serv1 from "../../assets/images/serv1.jpg";
 import serv2 from "../../assets/images/serv2.jpg";
 import serv3 from "../../assets/images/serv3.jpg";
+
 import edf1 from "../../assets/images/edf1.jpg";
 import edf2 from "../../assets/images/edf2.jpg";
 import edf3 from "../../assets/images/edf3.jpg";
@@ -30,6 +31,7 @@ import edf18 from "../../assets/images/edf18.jpg";
 import edf19 from "../../assets/images/edf19.jpg";
 import edf20 from "../../assets/images/edf20.jpg";
 import edf21 from "../../assets/images/edf21.jpg";
+
 import elet1 from "../../assets/images/elet1.jpg";
 import elet2 from "../../assets/images/elet2.jpg";
 import elet3 from "../../assets/images/elet3.jpg";
@@ -37,10 +39,17 @@ import elet4 from "../../assets/images/elet4.jpg";
 import elet5 from "../../assets/images/elet5.jpg";
 import elet6 from "../../assets/images/elet6.jpg";
 import elet7 from "../../assets/images/elet7.jpg";
+
 import pint1 from "../../assets/images/pintura1.jpg";
 import pint2 from "../../assets/images/pintura2.jpg";
 import pint3 from "../../assets/images/pintura3.jpg";
 import pint4 from "../../assets/images/pintura4.jpg";
+import pint5 from "../../assets/images/pintura5.jpg";
+import pint6 from "../../assets/images/pintura6.jpg";
+import pint7 from "../../assets/images/pintura7.jpg";
+import pint8 from "../../assets/images/pintura8.jpg";
+import pint9 from "../../assets/images/pintura9.jpg";
+
 import icon from "../../assets/icons/zoom.png";
 function Services(){
     const [images, setImages] = useState(null);
@@ -181,6 +190,27 @@ function Services(){
                 <div className="services-box" onClick={()=> Img(pint4)}>
                     <img src={icon} className="imgicon"></img>
                         <img src={pint4} alt="services"></img>
+                    </div>
+                    <div className="services-box" onClick={()=> Img(pint5)}>
+                    <img src={icon} className="imgicon"></img>
+                        <img src={pint5} alt="services"></img>
+                    </div>
+                    <div className="services-box" onClick={()=> Img(pint6)}>
+                    <img src={icon} className="imgicon"></img>
+                        <img src={pint6} alt="services"></img>
+                    </div>
+                    <div className="services-box" onClick={()=> Img(pint7)}>
+                    <img src={icon} className="imgicon"></img>
+                        <img src={pint7} alt="services"></img>
+                    </div>
+
+                    <div className="services-box" onClick={()=> Img(pint8)}>
+                    <img src={icon} className="imgicon"></img>
+                        <img src={pint8} alt="services"></img>
+                    </div>
+                    <div className="services-box" onClick={()=> Img(pint9)}>
+                    <img src={icon} className="imgicon"></img>
+                        <img src={pint9} alt="services"></img>
                     </div>
                 </div>
                 <h1>Elétrica</h1>

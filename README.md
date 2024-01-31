@@ -22,7 +22,7 @@
   </ul>
 
   <h2>
-    Responsividade
+    Responsividade para todas as telas
   </h2>
 
   <ul>

@@ -50,6 +50,14 @@ import pint7 from "../../assets/images/pintura7.jpg";
 import pint8 from "../../assets/images/pintura8.jpg";
 import pint9 from "../../assets/images/pintura9.jpg";
 
+import video1 from "../../assets/video/video1.mp4";
+import video2 from "../../assets/video/video2.mp4";
+import video3 from "../../assets/video/video3.mp4";
+import video4 from "../../assets/video/video4.mp4";
+import video5 from "../../assets/video/video5.mp4";
+import video6 from "../../assets/video/video6.mp4";
+import video7 from "../../assets/video/video7.mp4";
+
 import icon from "../../assets/icons/zoom.png";
 function Services(){
     const [images, setImages] = useState(null);
@@ -243,6 +251,45 @@ function Services(){
                     <img src={icon} className="imgicon"></img>
                         <img src={elet7} alt="services"></img>
                     </div>
+                </div>
+                <h1>Videos</h1>
+                <div className="services-slider">
+                    <div className="video-box">
+                        <video controls>
+                            <source src={video1} type="video/mp4"></source>
+                        </video>
+                    </div>
+                    <div className="video-box">
+                        <video controls>
+                            <source src={video2} type="video/mp4"></source>
+                        </video>
+                    </div>
+                    <div className="video-box">
+                        <video controls>
+                            <source src={video3} type="video/mp4"></source>
+                        </video>
+                    </div>
+                    <div className="video-box">
+                        <video controls>
+                            <source src={video4} type="video/mp4"></source>
+                        </video>
+                    </div>
+                    <div className="video-box">
+                        <video controls>
+                            <source src={video5} type="video/mp4"></source>
+                        </video>
+                    </div>
+                    <div className="video-box">
+                        <video controls>
+                            <source src={video6} type="video/mp4"></source>
+                        </video>
+                    </div>
+                    <div className="video-box">
+                        <video controls>
+                            <source src={video7} type="video/mp4"></source>
+                        </video>
+                    </div>
+
                 </div>
             </div>
 

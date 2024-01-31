@@ -7,6 +7,7 @@
     justify-content: center;
     animation: center 1.01s linear normal;
     background-color: #000;
+    z-index: 10000;
 }
 
 .bgs{

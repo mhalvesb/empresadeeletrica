@@ -14,6 +14,7 @@
     width: 100%;
     flex-wrap: wrap;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .services-box{
@@ -26,6 +27,17 @@
     min-width: 200px;
     cursor: pointer;
 }
+
+.video-box{
+    width: 200px;
+    min-width: 200px;
+    margin: 10px 10px 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
 .services-box .serviceimg{
     width: 100%;

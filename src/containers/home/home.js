@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import { Link } from "react-router-dom";
 
 
@@ -20,6 +20,26 @@ import "./home.css";
 
 function Home(){
     const [isOpen, setIsOpen] = useState(false);
+    const [scrollPosition, setScrollPosition] = useState(0);
+
+    console.log(scrollPosition);
+
+    
+    useEffect(() =>{
+        const handleScroll = () =>{
+            setScrollPosition(window.scrollY);
+        }
+
+        window.addEventListener("scroll", handleScroll);
+
+        return  () =>{
+            window.removeEventListener("scroll", handleScroll);
+        }
+    }, []);
+
+
+
+
     function Open(){
         setIsOpen(true);
     }
@@ -54,7 +74,7 @@ function Home(){
                         <button onClick={Open}>Entrar em contato</button>
                     </div>
                     <div className="sec b3sec">
-                        <section className="rounded-tl-lg flex-1 mb-14">
+                        <section className={`rounded-tl-lg flex-1 mb-14 ${scrollPosition >= 100 ? "sec1": "secnone"}`}>
                             <div className="sectionimg rounded-full bg-black mr-4 p-2">
                                 <img src={Sectionimg} alt="housepng"></img>
                             </div>
@@ -66,7 +86,7 @@ function Home(){
                             </div>
                         </section>
 
-                        <section className="flex-1 mb-14">
+                        <section className={`flex-1 mb-14 ${scrollPosition >= 100 ? "sec2": "secnone"}`}>
                             <div className="sectionimg p-2 bg-white rounded-full mr-4 ">
                                 <img className="" src={Sectionimgs} alt="png"></img>
                             </div>
@@ -79,7 +99,7 @@ function Home(){
 
                         </section>
 
-                        <section className="rounded-tr-lg flex-1 mb-14">
+                        <section className={`rounded-tr-lg flex-1 mb-14 ${scrollPosition >= 100 ? "sec3" : "secnone"}`}>
                         <div className="sectionimg p-2 bg-black rounded-full mr-4">
                                 <img className="" src={Sectionclient} alt="png"></img>
                             </div>

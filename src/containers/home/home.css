@@ -10,7 +10,7 @@ body{
     background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0,0,0, 0.75)), url("../../assets/images/b.jpg");
     background-size:cover;
     background-position:top;
-    height: 85vh;
+    height: 95vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,6 +46,55 @@ button:hover{
     justify-content: center;
     width: 75%;
     margin: -50px auto;
+    opacity: 1;
+}
+
+.secnone{
+    opacity: 0;
+}
+
+.sec1{
+    opacity: 0;
+    animation-name: sec1;
+    animation-delay: 0.25s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.sec2{
+    opacity: 0;
+    animation-name: sec1;
+    animation-delay: 0.5s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.sec3{
+    opacity: 0;
+    animation-name: sec1;
+    animation-delay: 0.75s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes sec1{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+@keyframes secs{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
 }
 
 section{

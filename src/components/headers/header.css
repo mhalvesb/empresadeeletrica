@@ -1,9 +1,22 @@
 header{
-    background-color: #111010;
+    background-color: #000;
     display: flex;
     justify-content: space-between;
     height: auto;
     padding: 0px 12.5%;
+    animation-name: headers;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes headers{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
 }
 
 .himgs{
